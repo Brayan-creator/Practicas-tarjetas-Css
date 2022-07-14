@@ -1,0 +1,59 @@
+:root {
+  /*color*/
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  background-color: white;
+  height: 500px;
+  border-radius: 23px;
+}
+
+.imagen-tarjeta {
+  width: 290px;
+  height: 289px;
+  border-radius: 10px;
+  margin-top: 18px;
+}
+
+.titulo {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 22px;
+  color: #20314d;
+}
+
+.texto {
+  margin-top: 18px;
+  text-align: center;
+  color: #a5a4b2;
+}/*# sourceMappingURL=estilo.css.map */
