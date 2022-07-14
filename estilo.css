@@ -56,4 +56,14 @@ body {
   margin-top: 18px;
   text-align: center;
   color: #a5a4b2;
+}
+
+.attribution {
+  display: block;
+  -webkit-padding-before: 1rem;
+          padding-block-start: 1rem;
+  -webkit-padding-after: 0.25rem;
+          padding-block-end: 0.25rem;
+  font-size: 0.75rem;
+  text-align: center;
 }/*# sourceMappingURL=estilo.css.map */
